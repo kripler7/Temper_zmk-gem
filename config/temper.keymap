@@ -5,12 +5,12 @@
  */
 
 #include <behaviors/mouse_keys.dtsi>
+#include <behaviors/mouse_move.dtsi>
+#include <behaviors/mouse_scroll.dtsi>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/mouse.h>
-#include <behaviors/mouse_move.dtsi>
-#include <behaviors/mouse_scroll.dtsi>
 
 #define DEFAULT_L 0
 #define SYMBOLS_L 1
@@ -37,12 +37,13 @@
             hold-trigger-key-positions = <16 17 18 13 12 11 20>;
         };
 
-        mmv {
+        mmv: mmv {
             compatible = "zmk,behavior-mouse-move";  // Added compatible property
             acceleration-exponent = <1>;            // 1
             time-to-max-speed-ms = <900>;          // 40
             delay-ms = <0>;                        // 0
         };
+
         msc {
             acceleration-exponent = <1>;      // 0
             time-to-max-speed-ms = <400>;      // 500
