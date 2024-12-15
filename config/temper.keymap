@@ -37,8 +37,6 @@
             hold-trigger-key-positions = <16 17 18 13 12 11 20>;
         };
 
-        :
-
         mmv {
             compatible = "zmk,behavior-mouse-move";  // Added compatible property
             acceleration-exponent = <1>;            // 1
@@ -47,6 +45,7 @@
         };
 
         msc {
+            compatible = "zmk,behavior-mouse-scroll";
             acceleration-exponent = <1>;      // 0
             time-to-max-speed-ms = <400>;      // 500
             delay-ms = <0>;                   //   10
