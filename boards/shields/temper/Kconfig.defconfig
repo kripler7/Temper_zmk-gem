@@ -6,11 +6,37 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
+# Power settings for left shield
+config ZMK_IDLE_TIMEOUT
+    default 60000
+
+config ZMK_SLEEP
+    default y
+
+config ZMK_SLEEP_GPIO_WAKEUP
+    default y
+
+config ZMK_WAKE_FROM_SLEEP
+    default y
+
 endif
 
 if SHIELD_TEMPER_LEFT || SHIELD_TEMPER_RIGHT
 
 config ZMK_SPLIT
+    default y
+
+# Power settings for both left and right shields
+config ZMK_IDLE_TIMEOUT
+    default 60000
+
+config ZMK_SLEEP
+    default y
+
+config ZMK_SLEEP_GPIO_WAKEUP
+    default y
+
+config ZMK_WAKE_FROM_SLEEP
     default y
 
 endif
