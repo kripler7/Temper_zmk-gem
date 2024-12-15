@@ -31,6 +31,8 @@
             quick-tap-ms = <75>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
+
+            hold-trigger-key-positions = <16 17 18 13 12 11 20>;
         };
 
         mmv {
