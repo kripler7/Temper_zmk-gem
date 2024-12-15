@@ -85,22 +85,22 @@
         };
 
         num_layer {
-            bindings = <&tog 3>;
+            bindings = <&to 3>;
             key-positions = <6 7 5>;
         };
 
         bt_layer {
-            bindings = <&tog 6>;
+            bindings = <&to 6>;
             key-positions = <4 3 2>;
         };
 
         default_layer {
-            bindings = <&tog 0>;
+            bindings = <&to 0>;
             key-positions = <15 16 17 18>;
         };
 
         f_layer {
-            bindings = <&tog 5>;
+            bindings = <&to 5>;
             key-positions = <14 13 12 11>;
         };
     };
