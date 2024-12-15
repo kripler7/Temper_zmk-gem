@@ -66,12 +66,12 @@
 
         h {
             bindings = <&sys_reset>;
-            key-positions = <12 13 14 10>;
+            key-positions = <1 12 13 24>;
         };
 
         j {
             bindings = <&sys_reset>;
-            key-positions = <15 16 17 19>;
+            key-positions = <17 8 16 25>;
         };
 
         Backslash_pipe {
