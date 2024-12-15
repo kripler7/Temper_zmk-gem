@@ -33,7 +33,7 @@
             bindings = <&kp>, <&kp>;
         };
 
-        mmv: mmv {
+        mmv {
             compatible = "zmk,behavior-mouse-move";  // Added compatible property
             acceleration-exponent = <1>;            // 1
             time-to-max-speed-ms = <900>;          // 40
