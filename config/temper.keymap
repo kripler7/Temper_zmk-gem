@@ -51,22 +51,22 @@
 
         b {
             bindings = <&kp CLCK>;
-            key-positions = <14 13 15>;
+            key-positions = <10 11 12>;
         };
 
         d {
             bindings = <&kp DEL>;
-            key-positions = <10 9>;
+            key-positions = <8 9>;
         };
 
         e {
             bindings = <&kp ENTER>;
-            key-positions = <21 20>;
+            key-positions = <18 19>;
         };
 
         h {
             bindings = <&sys_reset>;
-            key-positions = <1 14 27>;
+            key-positions = <12 13 14 15>;
         };
 
         j {
