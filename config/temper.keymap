@@ -17,7 +17,7 @@
 
 &mt {
     tapping-term-ms = <200>;
-    flavor = "balanced";
+    flavor = "tap-preferred";
     hold-trigger-on-release;
 };
 
@@ -29,11 +29,13 @@
             #binding-cells = <2>;
             tapping-term-ms = <100>;
             quick-tap-ms = <75>;
-            flavor = "balanced";
+            flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
+
+            hold-trigger-key-positions = <16 17 18 13 12 11 20>;
         };
 
-        mmv {
+        mmv: mmv {
             compatible = "zmk,behavior-mouse-move";  // Added compatible property
             acceleration-exponent = <1>;            // 1
             time-to-max-speed-ms = <900>;          // 40
