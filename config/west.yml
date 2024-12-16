@@ -1,11 +1,11 @@
 manifest:
   remotes:
-   - name: zmkfirmware
+    - name: zmkfirmware
       url-base: https://github.com/petejohanson
-   - name: gpeye
+    - name: gpeye
       url-base: https://github.com/GPeye
   projects:
-   - name: zmk
+    - name: zmk
       remote: zmkfirmware
       revision: feat/pointers-move-scroll
       import: app/west.yml
