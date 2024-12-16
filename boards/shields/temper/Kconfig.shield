@@ -6,3 +6,4 @@ config SHIELD_TEMPER_LEFT
 
 config SHIELD_TEMPER_RIGHT
     def_bool $(shields_list_contains,temper_right)
+CONFIG_ZMK_IDLE_TIMEOUT=30000
