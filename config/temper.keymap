@@ -5,6 +5,7 @@
  */
 
 #include <dt-bindings/zmk/pointing.h>
+#include <input/processors.dtsi>
 //#include <behaviors/mouse_keys.dtsi>
 //#include <behaviors/mouse_move.dtsi>
 //#include <behaviors/mouse_scroll.dtsi>
