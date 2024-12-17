@@ -5,23 +5,23 @@
  */
 
 #include <dt-bindings/zmk/pointing.h>
-#include <behaviors/mouse_keys.dtsi>
-#include <behaviors/mouse_move.dtsi>
-#include <behaviors/mouse_scroll.dtsi>
+//#include <behaviors/mouse_keys.dtsi>
+//#include <behaviors/mouse_move.dtsi>
+//#include <behaviors/mouse_scroll.dtsi>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
+//#include <dt-bindings/zmk/mouse.h>
 
-#ifndef ZMK_MOUSE_DEFAULT_MOVE_VAL
+#ifndef ZMK_POINTING_DEFAULT_MOVE_VAL
 
-#define ZMK_MOUSE_DEFAULT_MOVE_VAL 1600  // 600
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 1600  // 600
 
 #endif
 
-#ifndef ZMK_MOUSE_DEFAULT_SCRL_VAL
+#ifndef ZMK_POINTING_DEFAULT_SCRL_VAL
 
-#define ZMK_MOUSE_DEFAULT_SCRL_VAL 25    // 10
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 25    // 10
 
 #endif
 
