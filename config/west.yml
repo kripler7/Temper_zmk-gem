@@ -4,7 +4,7 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: gpeye
       url-base: https://github.com/GPeye
-        projects:
+  projects:
     - name: mario-peripheral-animation
       remote: gpeye
       revision: main 
