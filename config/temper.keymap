@@ -96,12 +96,12 @@
         };
 
         num_layer {
-            bindings = <&to 3>;
+            bindings = <&to 4>;
             key-positions = <6 7 5>;
         };
 
         bt_layer {
-            bindings = <&to 6>;
+            bindings = <&to 7>;
             key-positions = <4 3 2>;
         };
 
@@ -111,8 +111,13 @@
         };
 
         f_layer {
-            bindings = <&to 5>;
+            bindings = <&to 6>;
             key-positions = <14 13 12 11>;
+        };
+
+        colemak_dh {
+            bindings = <&tog 1>;
+            key-positions = <33 34 35 29>;
         };
     };
 
@@ -141,8 +146,19 @@
   &kp Q           &kp W             &kp E          &kp R           &kp T          &kp Y        &kp U            &kp I            &kp O              &kp P
   &kp A           &mt LEFT_SHIFT S  &mt LCTRL D    &mt LEFT_ALT F  &kp G          &kp H        &mt RIGHT_ALT J  &mt RCTRL K      &mt RIGHT_SHIFT L  &mt COLON SEMICOLON
   &mt LEFT_GUI Z  &kp X             &kp C          &kp V           &kp B          &kp N        &kp M            &kp COMMA        &kp DOT            &mt QUESTION SLASH
-                                    &lt 3 LG(TAB)  &lt 4 TAB       &lt 1 SPACE    &lt 2 SPACE  &kp BACKSPACE    &mt LC(V) LC(C)
+                                    &lt 4 LG(TAB)  &lt 5 TAB       &lt 2 SPACE    &lt 3 SPACE  &kp BACKSPACE    &mt LC(V) LC(C)
             >;
+        };
+
+        colemak_dh {
+            bindings = <
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                  &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+
+            label = "colemak_dh";
         };
 
         arrow_numbers {
