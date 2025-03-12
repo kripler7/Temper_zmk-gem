@@ -119,6 +119,11 @@
             bindings = <&tog 1>;
             key-positions = <33 34 35 29>;
         };
+
+        grave {
+            bindings = <&mt LS(GRAVE) GRAVE>;
+            key-positions = <0 1>;
+        };
     };
 
     macros {
