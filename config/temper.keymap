@@ -118,7 +118,7 @@
 
         colemak_dh {
             bindings = <&tog 1>;
-            key-positions = <33 34 35 29>;
+            key-positions = <29 19>;
         };
 
         grave {
