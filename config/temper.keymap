@@ -116,11 +116,6 @@
             key-positions = <14 13 12 11>;
         };
 
-        colemak_dh {
-            bindings = <&tog 0>;
-            key-positions = <29 19>;
-        };
-
         grave {
             bindings = <&mt LS(GRAVE) GRAVE>;
             key-positions = <0 1>;
